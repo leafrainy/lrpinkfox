@@ -1,0 +1,150 @@
+body {background: url("images/bg2.jpg") fixed center top repeat-x; color: #323232; text-align:center; font:13px/18px Arial,Helvetica,sans-serif; margin: 0px auto 0px; padding: 0px;}
+#wrap {background: #FFFFFF; width: 720px; text-align:left; margin: 0px auto 0px; padding: 0px;}
+img{ border:none;}
+
+a:link, a:active, a:visited {color:#1F1F1F; text-decoration:none;}
+a:hover {color:#FABDE6; text-decoration:none;}
+
+/*header  style*/
+#header{height:140px;width:100%;border-bottom:10px solid #FFEEF4;}
+#blogphoto{margin:20px 0px 10px 30px;padding-left:15px;height:110px;width:110px;float:left;}
+#blogphoto img{margin:5px;height:90px;width:90px;border-radius: 5px 5px ;}
+#blogname{padding-left:30px;height:80px;float:left;}
+#blogname h1 {color: #1F1F1F; font-size: 25px; font-weight: normal; letter-spacing: 0px; margin: 10px 0px 3px 0px; padding: 20px 0px 0px 0px; font-family: Georgia, "Times New Roman", Times, serif; line-height:normal;}
+#blogname h1 a:link {color: #1F1F1F; text-decoration: none;}
+#blogname h1 a:active {color: #1F1F1F; text-decoration: none;}
+#blogname h1 a:visited {color: #1F1F1F; text-decoration: none;}
+#blogname h1 a:hover {color: #1F1F1F; text-decoration: none;}
+
+/*µ¼º½*/
+#nav {height:40px;margin: 13px 0px 0px 0px;border-bottom: 1px solid #FAD6E5;font-size:15px;}
+#nav .bar {margin: 0px; padding: 0px;height: 30px;}
+#nav .bar .item {height: 40px;line-height: 40px;display: block;float: left;padding: 0 18px; position: relative}
+#nav a:link {color:#1F1F1F; text-decoration:none;}
+#nav a:active {color:#1F1F1F; text-decoration:none;}
+#nav a:visited {color:#1F1F1F; text-decoration:none;}
+#nav a:hover {color:#fff; text-decoration:none;border-radius: 5px 5px 0 0;}
+#nav .current {background-color: #FAD6E5;border-radius: 5px 5px 0 0;}
+#nav .item:hover{background-color:#FAD6E5;border-radius: 5px 5px 0 0;}
+#nav .item:hover .sub-nav, 
+#nav .li-hover .sub-nav { display: block;}
+#nav .sub-nav {display: none;position: absolute;background-color: #fff;margin: 0px; padding: 0px;list-style: none;border: 1px solid #eee;top: 40px;left: 0px;}
+#nav .sub-nav li {min-width: 120px;white-space: nowrap;}
+#nav .sub-nav a {display: block;padding: 0 18px;}
+* html #nav .sub-nav a {display:inline;zoom:1;width: 120px;}
+#nav .sub-nav a:hover {background-color: #FAD6E5;;}
+
+/*¹ö¶¯Î¢Óï*/
+#plan{margin:10px 10px 5px 10px;border-bottom:1px dashed #FAD6E5;text-align:center;}
+
+/*·­Ò³*/
+.navigation{margin:9px 0 5px 0;font-size:12px;float:right;text-align:right;}
+.pagination {line-height:24px;}
+.inactive {height:22px; width:22px;}
+.pagination span, .pagination a {width:22px;text-align:center;height:22px;line-height:24px;margin:0px 2px 0px 2px;display:inline-block;text-decoration:none;border:1px #e0e0e0 solid;}
+.pagination span{height:22px; width:22px;color:#333;border:1px #bcbcbc solid;font-weight:bold;background:#f0f0f0;}
+.pagination a:hover {height:22px; width:22px;color:#333;border:1px #bcbcbc solid;text-decoration: none;}
+.pagination .page_previous, .pagination .prev{width:50px;height:22px;text-align:center;}
+.pagination .page_previous:hover, .pagination .prev:hover{width:50px;height:22px;text-align:center;}
+.pagination .page_next, .pagination .next, .pagination .page_next:hover, .pagination .next:hover{width:50px;height:22px;text-align:center;}
+.pagination .fir_las, .pagination .fir_las:hover{width:30px;height:22px;text-align:center;}
+
+/*ÄÚÈÝ*/
+#content {width: 720px; margin: 0px auto 0px; padding: 0px;}
+#content p {padding: 0px 0px 15px 0px; margin: 0px; line-height: 20px;}
+#content h1 {display:none;}
+#content h2 {color: #1F1F1F; font-size: 18px; font-weight:bold; padding: 0px 0px 0px 0px; margin: 25px 0px 10px 0px;}
+#content h2 a:link {color:#1F1F1F; text-decoration:none;}
+#content h2 a:active {color:#1F1F1F; text-decoration:none;}
+#content h2 a:visited {color:#1F1F1F; text-decoration:none;}
+#content h2 a:hover {color:#FF9999; text-decoration:none;}
+#content h2.widgettitle {color: #444444; font-size: 12px; font-weight: bold; margin: 25px 0px 0px 0px; padding: 10px 0px 10px 0px;}
+#content h3 {color: #444444; font-size: 14px; font-weight: bold; margin: 15px 0px 0px 0px; padding: 8px 0px 8px 0px;}
+#contentleft {float: left; width: 680px; margin: 0px 0px 0px 0px; padding: 0px 10px 20px 20px; }
+blockquote {margin: 0px 20px 20px 20px; padding: 25px 20px 25px 20px; background: #EFEFEF; border-left: 5px solid #696969; border-right: 5px solid #696969;}
+#contentleft .date {color:#1F1F1F; font-size:12px;padding:0px 0px 5px 0px;margin-bottom:10px;}
+#contentleft .att {color:#A97965; font-size:12px; margin:5px 0px 0px 0px;}
+#contentleft .tag {color:#A97965; font-size:12px; margin:0px 0px 0px 0px;}
+#contentleft .count { text-align:right; font-size:12px;}
+#contentleft img{max-width:690px;}
+
+/*ÏàÁÚÈÕÖ¾*/
+#contentleft .neighbor_log .right{float:right;padding:0px 10px 10px 5px;}
+#contentleft .neighbor_log .right a:hover{color:#fff;}
+#contentleft .neighbor_log .left{float:left;}
+#contentleft .neighbor_log .left a:hover{color:#fff;}
+#nextlog{height:40px;background:#FFCCCC;margin-top:10px;padding-bottom:5px;border-radius: 5px 5px;}
+
+img.alignright {float:right; border:none; margin:0px 0px 10px 10px;}
+img.alignleft {float:left; border:none; margin:0px 10px 10px 0px;}
+img.aligncenter {display: block; border:none; margin:10px auto 10px auto;}
+a img.alignright {float:right; border:none; margin:0px 0px 10px 10px;}
+a img.alignleft {float:left; border:none; margin:0px 10px 10px 0px;}
+a img.aligncenter {display: block; border:none; margin:10px auto 10px auto;}
+
+
+.attachment{
+    margin: 0px 3px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+    background:url(images/att.png)  no-repeat 2px -1px;
+}
+
+#twitter li {border-bottom: dotted #CCCCCC 1px;list-style:none;}
+#twitter li p {font-size: 10px;padding-left: 68px; text-align:right; padding:5px 0px 2px;}
+#twitter p {font-size: 12px;text-align:right;}
+#twitter li small {font-size: 10px;padding: 0px 10px;}
+#twitter li .t_img{background:url(images/img.gif) no-repeat;padding: 0 7px;margin: 0 0 0 10px;}
+
+#tw .main_img{ border:1px #2772ae solid; float:left;}
+#tw .main_img img{ border:1px #fff solid}
+#tw .op{ float:left; height:18px;margin:6px 5px 3px;}
+#tw ul{ margin:5px 0px 3px 25px; width:520px; line-height:1.8;padding:0px;}
+#tw ul .li{ margin:10px 0px;padding:5px 0px;border-bottom: #F7F7F7 1px solid;}
+#tw ul li{margin:0px 0px; padding:0;}
+#tw ul li .main_img{ margin-top:5px;}
+#tw ul li .post1{ float:left;font-size:13px; padding:0px;margin:0; width:470px; padding:0px 0px 0px 8px;}
+#tw ul li .post1 span{color:#886353; font-weight:bold;}
+#tw ul li{ clear:both; padding:0px; margin:0px;}
+#tw ul li .bttome {margin:3px 0;vertical-align:middle}
+#tw ul li .bttome .time{ float:left;line-height:14px;margin:0;}
+#tw ul li .bttome .post{ float: right;font-size:12px;line-height:14px;margin:0;}
+#tw .time{ font-size:12px; color:#999999; padding-left:43px}
+#tw ul .r{ margin:5px 0px 0px 40px;color:#666666; border:0; padding:0px;}
+#tw ul .r li{padding:5px 3px 3px;border-bottom: #F7F7F7 1px solid; width:475px}
+#tw ul .r .num{ font-size:16px; font-weight:bold; color:#0079b7;padding:0px 5px; float:left; width:20px;}
+#tw ul .r .time{ padding:0px 5px;}
+#tw ul .r .name{ padding:0px 0px 0px 0px; font-size:12px; color:#336699;}
+#tw ul .r em a{ font-style:normal;}
+#tw ul .huifu{margin:5px 0px 0px 43px; background:#F5F5F5;border:#CCCCCC solid 1px;text-align:center;display:none;}
+#tw ul .huifu textarea{ margin:5px; width:460px; border:#CCCCCC solid 1px;overflow:auto;}
+#tw ul .huifu input{ margin:0px 5px;}
+#tw ul .huifu div{ text-align:left; padding:0px 5px; text-align:center}
+#tw ul .huifu .text{ width:60px;}
+#tw ul .button_p{background:url(images/weibe_button.gif) no-repeat; border:0;cursor:pointer; _cursor:hand; width:63px; height:25px;}
+#tw .tbutton{ font-size:12px;float:none; margin-bottom:3px;}
+#tw .tbutton input{ width:90px; border:#CCCCCC solid 1px; }
+#tw .tbutton .button_p{ background:url(images/weibe_button.gif) no-repeat; border:0;cursor:pointer; _cursor:hand; width:60px; height:25px;}
+#tw .tbutton .tinfo{ float:left; }
+#tw .msg{ clear:both}
+#tw li{list-style:none;}
+#tw ul .huifu textarea{background-color:#FFFFFF;}
+#tw ul .huifu input{background-color:#FFFFFF;}
+#tw ul li ul{ line-height:0;font-size:0;}
+#tw ul li ul li{ font-size:12px; line-height:22px;}
+#tw .top{width:650px;}
+#tw ul li .post1{ width:560px;}
+#tw ul{ width:610px;}
+#tw ul .r li{width:565px}
+#tw ul .huifu textarea{width:550px;}
+#tw ul li .bttome .post{ font-size:12px;line-height:14px;margin:0; text-align:right; float:none;clear:both; width:610px; background:0; border:0;}
+#tw ul li .bttome .time{ float:none; margin-top:-25px;}
+#tw p .t_img{background:url(images/img.gif) no-repeat;padding: 0 7px;margin: 0 0 0 10px;}
+
+/*ÓÑÁ´*/
+#listlink{overflow:hidden; margin-top:40px;border-top:2px solid #FABDE6; }
+#listlink ul li{padding-left:10px;float:left; text-align:center;line-height:28px;overflow:hidden;}
+
+/*µ×²¿*/
+#footer{width:100%;text-align:center; border-top:5px solid #FFEEF4; padding-top:20px; font-size:12px; margin-top:5px; color:#777}
+#footer a:link, #footer a:visited{ color:#777}
